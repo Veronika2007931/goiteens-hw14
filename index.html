@@ -76,27 +76,43 @@
             <ul class="fields">
                 <li class="field-item">
                     <label for="name">Ім'я</label>
-                    <input type="text" name="name" id="name" >
+                    <input  class="modal-input" type="text" name="name" id="name" >
+                    <svg width="12" height="12" class="modal-icon">
+                        <use href="./images/symbol-defs.svg#name"></use>
+                    </svg>
+
                 </li>
                 <li class="field-item">
                     <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel">
+                    <input  class="modal-input" type="tel" name="tel" id="tel">
+                    <svg width="12" height="12" class="modal-icon">
+                        <use href="./images/symbol-defs.svg#tel"></use>
+                    </svg>
                 </li>
                 <li class="field-item">
-                    <label for="mail">Імейл</label>
-                    <input type="mail" name="mail" id="mail">
+                    <label for="mail">Пошта</label>
+                    <input  class="modal-input" type="mail" name="mail" id="mail">
+                    <svg width="12" height="12" class="modal-icon">
+                        <use href="./images/symbol-defs.svg#email"></use>
+                    </svg>
                 </li>
                 <li class="field-item">
                     <label for="comment">Коментарі</label>
-                    <textarea  name="comment" id="comment"></textarea>
+                    <textarea  class="modal-input "  name="comment" id="comment" placeholder="Введіть текст"></textarea>
                 </li>
             </ul>
             <label>
 
-                <input type="checkbox" name="checkbox" >
+                <input class="modallink" type="checkbox" name="checkbox" >
                 Погоджуюсь з розсилкою і приймаю 
                 <a  class="checkbox-link" href="">Умови договору</a>
+                <!-- <svg width="15" height="15" class="checkboxklick">
+                    <use href="./images/symbol-defs.svg#checkbox"></use>
+                </svg> -->
             </label>
+            <button class="modal-button" type="button">
+                <p class="modalbuttontext">Надіслати</p>
+            </button>
             
          </div>
         </div>
